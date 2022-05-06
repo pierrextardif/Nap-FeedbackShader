@@ -78,7 +78,6 @@ namespace nap
 		ObjectPtr<Scene>			mScene = nullptr;				///< Pointer to the main scene
 		ObjectPtr<EntityInstance>	mCameraEntity = nullptr;		///< Pointer to the entity that holds the perspective camera
 
-		ObjectPtr<EntityInstance>	mSourceImg = nullptr;
 		ObjectPtr<EntityInstance>	mBuffAEntity = nullptr;
 		ObjectPtr<EntityInstance>	mBuffBEntity = nullptr;
 		ObjectPtr<EntityInstance>	mFeedbackEntity = nullptr;

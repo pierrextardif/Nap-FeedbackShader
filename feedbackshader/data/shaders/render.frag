@@ -33,5 +33,5 @@ void main()
 {
 	vec4 O = vec4(0.);
 	O = vec4(texPicker(TexFeedbackA, TexFeedbackB, uBuff.even, passUVs.xy), 1.0);
-	out_Color = vec4(texture(TexFeedbackB, passUVs.xy).rgb, 1.0);
+	out_Color = O;
 }

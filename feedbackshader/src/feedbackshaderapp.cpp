@@ -50,18 +50,13 @@ namespace nap
 
 
 
-		mSourceImg = mScene->findEntity("SourceEntity");
-		if (!error.check(mSourceImg != nullptr, "unable to find image source entity with name: %s", "SourceEntity"))
-			return false;
-
-
 		// ==== feedback ====
 		mBuffAEntity = mScene->findEntity("BuffAEntity");
-		if (!error.check(mSourceImg != nullptr, "unable to find image source entity with name: %s", "BuffAEntity"))
+		if (!error.check(mBuffAEntity != nullptr, "unable to find image source entity with name: %s", "BuffAEntity"))
 			return false;
 
 		mBuffBEntity = mScene->findEntity("BuffBEntity");
-		if (!error.check(mSourceImg != nullptr, "unable to find image source entity with name: %s", "BuffBEntity"))
+		if (!error.check(mBuffBEntity != nullptr, "unable to find image source entity with name: %s", "BuffBEntity"))
 			return false;
 
 
