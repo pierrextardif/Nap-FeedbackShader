@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+
+feedbackshader/.ini
+feedbackshader/bin
+feedbackshader/msvc64
+feedbackshader/module/lib

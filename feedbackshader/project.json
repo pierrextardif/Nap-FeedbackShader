@@ -1,0 +1,15 @@
+{
+    "Type": "nap::ProjectInfo",
+    "mID": "ProjectInfo",
+    "Title": "FeedbackShader",
+    "Version": "0.1.0",
+    "RequiredModules": [
+        "mod_napapp",
+        "mod_napcameracontrol",
+        "mod_napparametergui",
+        "mod_feedbackshader"
+    ],
+    "Data": "data/objects.json",
+    "ServiceConfig": "",
+    "PathMapping": "cache/path_mapping.json"
+}

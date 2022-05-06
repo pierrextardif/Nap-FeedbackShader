@@ -1,0 +1,867 @@
+{
+    "Objects": [
+        {
+            "Type": "nap::Entity",
+            "mID": "BuffAEntity",
+            "Components": [
+                {
+                    "Type": "nap::TransformComponent",
+                    "mID": "nap::TransformComponent_4e3330c4",
+                    "Properties": {
+                        "Translate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Rotate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "UniformScale": 1.0
+                    }
+                },
+                {
+                    "Type": "nap::RenderableMeshComponent",
+                    "mID": "nap::RenderableMeshComponent_5e8f6bcb",
+                    "Visible": true,
+                    "Mesh": "PlaneMesh",
+                    "MaterialInstance": {
+                        "Uniforms": [
+                            {
+                                "Type": "nap::UniformStruct",
+                                "mID": "UniformStruct_1a207add",
+                                "Name": "UBuff",
+                                "Uniforms": [
+                                    {
+                                        "Type": "nap::UniformInt",
+                                        "mID": "UniformInt_d4039236",
+                                        "Name": "even",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "Type": "nap::UniformFloat",
+                                        "mID": "UniformFloat_40462e07",
+                                        "Name": "time",
+                                        "Value": 0.0
+                                    },
+                                    {
+                                        "Type": "nap::UniformVec2",
+                                        "mID": "UniformVec2_89e7171a",
+                                        "Name": "res",
+                                        "Value": {
+                                            "x": 1920.0,
+                                            "y": 1080.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "Samplers": [
+                            {
+                                "Type": "nap::Sampler2D",
+                                "mID": "Sampler2D_74837328",
+                                "Name": "Texfeedback",
+                                "MinFilter": "Linear",
+                                "MaxFilter": "Linear",
+                                "MipMapMode": "Linear",
+                                "AddressModeVertical": "ClampToEdge",
+                                "AddressModeHorizontal": "ClampToEdge",
+                                "MaxLodLevel": 1000,
+                                "AnisotropicSamples": "Default",
+                                "Texture": "RenderTextureB"
+                            }
+                        ],
+                        "Buffers": [],
+                        "Material": "Material_BuffA",
+                        "BlendMode": "NotSet",
+                        "DepthMode": "NotSet"
+                    },
+                    "LineWidth": 1.0,
+                    "ClipRect": {
+                        "Min": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "Max": {
+                            "x": 0.0,
+                            "y": 0.0
+                        }
+                    }
+                },
+                {
+                    "Type": "nap::RenderToTextureComponent",
+                    "mID": "nap::RenderToTextureComponent_bc510490",
+                    "Visible": true,
+                    "OutputTexture": "RenderTextureA",
+                    "MaterialInstance": {
+                        "Uniforms": [
+                            {
+                                "Type": "nap::UniformStruct",
+                                "mID": "UniformStruct_33c879e6",
+                                "Name": "UBuff",
+                                "Uniforms": [
+                                    {
+                                        "Type": "nap::UniformInt",
+                                        "mID": "UniformInt_39d97ee5",
+                                        "Name": "even",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "Type": "nap::UniformFloat",
+                                        "mID": "UniformFloat_e70c2c28",
+                                        "Name": "time",
+                                        "Value": 0.0
+                                    },
+                                    {
+                                        "Type": "nap::UniformVec2",
+                                        "mID": "UniformVec2_d68e98a3",
+                                        "Name": "res",
+                                        "Value": {
+                                            "x": 1920.0,
+                                            "y": 1080.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "Samplers": [
+                            {
+                                "Type": "nap::Sampler2D",
+                                "mID": "Sampler2D_a95bd591",
+                                "Name": "Texfeedback",
+                                "MinFilter": "Linear",
+                                "MaxFilter": "Linear",
+                                "MipMapMode": "Linear",
+                                "AddressModeVertical": "ClampToEdge",
+                                "AddressModeHorizontal": "ClampToEdge",
+                                "MaxLodLevel": 1000,
+                                "AnisotropicSamples": "Default",
+                                "Texture": "RenderTextureB"
+                            }
+                        ],
+                        "Buffers": [],
+                        "Material": "Material_BuffA",
+                        "BlendMode": "NotSet",
+                        "DepthMode": "NotSet"
+                    },
+                    "Samples": "One",
+                    "ClearColor": {
+                        "Values": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ]
+                    },
+                    "SampleShading": true,
+                    "PreserveAspect": false
+                }
+            ],
+            "Children": []
+        },
+        {
+            "Type": "nap::Entity",
+            "mID": "BuffBEntity",
+            "Components": [
+                {
+                    "Type": "nap::TransformComponent",
+                    "mID": "nap::TransformComponent_62706db6",
+                    "Properties": {
+                        "Translate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Rotate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "UniformScale": 1.0
+                    }
+                },
+                {
+                    "Type": "nap::RenderableMeshComponent",
+                    "mID": "nap::RenderableMeshComponent_c7c5daa7",
+                    "Visible": true,
+                    "Mesh": "PlaneMesh",
+                    "MaterialInstance": {
+                        "Uniforms": [
+                            {
+                                "Type": "nap::UniformStruct",
+                                "mID": "UniformStruct_6c67fcac",
+                                "Name": "UBuff",
+                                "Uniforms": [
+                                    {
+                                        "Type": "nap::UniformInt",
+                                        "mID": "UniformInt_60ccc46b",
+                                        "Name": "even",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "Type": "nap::UniformFloat",
+                                        "mID": "UniformFloat_eccc39f0",
+                                        "Name": "time",
+                                        "Value": 0.0
+                                    },
+                                    {
+                                        "Type": "nap::UniformVec2",
+                                        "mID": "UniformVec2_828295de",
+                                        "Name": "res",
+                                        "Value": {
+                                            "x": 1920.0,
+                                            "y": 1080.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "Samplers": [
+                            {
+                                "Type": "nap::Sampler2D",
+                                "mID": "Sampler2D_74943ade",
+                                "Name": "Texfeedback",
+                                "MinFilter": "Linear",
+                                "MaxFilter": "Linear",
+                                "MipMapMode": "Linear",
+                                "AddressModeVertical": "ClampToEdge",
+                                "AddressModeHorizontal": "ClampToEdge",
+                                "MaxLodLevel": 1000,
+                                "AnisotropicSamples": "Default",
+                                "Texture": "RenderTextureA"
+                            }
+                        ],
+                        "Buffers": [],
+                        "Material": "Material_BuffB",
+                        "BlendMode": "NotSet",
+                        "DepthMode": "NotSet"
+                    },
+                    "LineWidth": 1.0,
+                    "ClipRect": {
+                        "Min": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "Max": {
+                            "x": 0.0,
+                            "y": 0.0
+                        }
+                    }
+                },
+                {
+                    "Type": "nap::RenderToTextureComponent",
+                    "mID": "nap::RenderToTextureComponent_7914cff0",
+                    "Visible": true,
+                    "OutputTexture": "RenderTextureB",
+                    "MaterialInstance": {
+                        "Uniforms": [
+                            {
+                                "Type": "nap::UniformStruct",
+                                "mID": "UniformStruct_c306382d",
+                                "Name": "UBuff",
+                                "Uniforms": [
+                                    {
+                                        "Type": "nap::UniformInt",
+                                        "mID": "UniformInt_1d9f038c",
+                                        "Name": "even",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "Type": "nap::UniformFloat",
+                                        "mID": "UniformFloat_1fc08d6a",
+                                        "Name": "time",
+                                        "Value": 0.0
+                                    },
+                                    {
+                                        "Type": "nap::UniformVec2",
+                                        "mID": "UniformVec2_07c96043",
+                                        "Name": "res",
+                                        "Value": {
+                                            "x": 1920.0,
+                                            "y": 1080.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "Samplers": [
+                            {
+                                "Type": "nap::Sampler2D",
+                                "mID": "Sampler2D_30047ce0",
+                                "Name": "TexFeedback",
+                                "MinFilter": "Linear",
+                                "MaxFilter": "Linear",
+                                "MipMapMode": "Linear",
+                                "AddressModeVertical": "ClampToEdge",
+                                "AddressModeHorizontal": "ClampToEdge",
+                                "MaxLodLevel": 1000,
+                                "AnisotropicSamples": "Default",
+                                "Texture": "RenderTextureA"
+                            }
+                        ],
+                        "Buffers": [],
+                        "Material": "Material_BuffB",
+                        "BlendMode": "NotSet",
+                        "DepthMode": "NotSet"
+                    },
+                    "Samples": "One",
+                    "ClearColor": {
+                        "Values": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ]
+                    },
+                    "SampleShading": true,
+                    "PreserveAspect": false
+                }
+            ],
+            "Children": []
+        },
+        {
+            "Type": "nap::Entity",
+            "mID": "CameraEntity",
+            "Components": [
+                {
+                    "Type": "nap::OrthoCameraComponent",
+                    "mID": "nap::OrthoCameraComponent_90fef656",
+                    "Properties": {
+                        "Mode": "PixelSpace",
+                        "LeftPlane": 0.0,
+                        "RightPlane": 100.0,
+                        "TopPlane": 100.0,
+                        "BottomPlane": 0.0,
+                        "NearClippingPlane": 0.10000000149011612,
+                        "FarClippingPlane": 1000.0
+                    }
+                },
+                {
+                    "Type": "nap::TransformComponent",
+                    "mID": "nap::TransformComponent_837b9c21",
+                    "Properties": {
+                        "Translate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Rotate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "UniformScale": 1.0
+                    }
+                }
+            ],
+            "Children": []
+        },
+        {
+            "Type": "nap::Entity",
+            "mID": "FeedbackEntity",
+            "Components": [
+                {
+                    "Type": "nap::TransformComponent",
+                    "mID": "nap::TransformComponent_43b93649",
+                    "Properties": {
+                        "Translate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Rotate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "UniformScale": 1.0
+                    }
+                },
+                {
+                    "Type": "nap::RenderableMeshComponent",
+                    "mID": "nap::RenderableMeshComponent_ec67f6e7",
+                    "Visible": true,
+                    "Mesh": "PlaneMesh",
+                    "MaterialInstance": {
+                        "Uniforms": [
+                            {
+                                "Type": "nap::UniformStruct",
+                                "mID": "UniformStruct_3c8b0370",
+                                "Name": "UBuff",
+                                "Uniforms": [
+                                    {
+                                        "Type": "nap::UniformInt",
+                                        "mID": "UniformInt_735b840c",
+                                        "Name": "even",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ],
+                        "Samplers": [
+                            {
+                                "Type": "nap::Sampler2D",
+                                "mID": "Sampler2D_ab9c2134",
+                                "Name": "TexFeedbackA",
+                                "MinFilter": "Linear",
+                                "MaxFilter": "Linear",
+                                "MipMapMode": "Linear",
+                                "AddressModeVertical": "ClampToEdge",
+                                "AddressModeHorizontal": "ClampToEdge",
+                                "MaxLodLevel": 1000,
+                                "AnisotropicSamples": "Default",
+                                "Texture": "RenderTextureA"
+                            },
+                            {
+                                "Type": "nap::Sampler2D",
+                                "mID": "Sampler2D_c651c638",
+                                "Name": "TexFeedbackB",
+                                "MinFilter": "Linear",
+                                "MaxFilter": "Linear",
+                                "MipMapMode": "Linear",
+                                "AddressModeVertical": "ClampToEdge",
+                                "AddressModeHorizontal": "ClampToEdge",
+                                "MaxLodLevel": 1000,
+                                "AnisotropicSamples": "Default",
+                                "Texture": "RenderTextureB"
+                            }
+                        ],
+                        "Buffers": [],
+                        "Material": "Material_Feedback",
+                        "BlendMode": "NotSet",
+                        "DepthMode": "NotSet"
+                    },
+                    "LineWidth": 1.0,
+                    "ClipRect": {
+                        "Min": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "Max": {
+                            "x": 0.0,
+                            "y": 0.0
+                        }
+                    }
+                }
+            ],
+            "Children": []
+        },
+        {
+            "Type": "nap::Entity",
+            "mID": "SourceEntity",
+            "Components": [
+                {
+                    "Type": "nap::RenderableMeshComponent",
+                    "mID": "nap::RenderableMeshComponent",
+                    "Visible": true,
+                    "Mesh": "PlaneMesh",
+                    "MaterialInstance": {
+                        "Uniforms": [],
+                        "Samplers": [
+                            {
+                                "Type": "nap::Sampler2D",
+                                "mID": "Sampler2D_3caa46b1",
+                                "Name": "TextureImg",
+                                "MinFilter": "Linear",
+                                "MaxFilter": "Linear",
+                                "MipMapMode": "Linear",
+                                "AddressModeVertical": "ClampToEdge",
+                                "AddressModeHorizontal": "ClampToEdge",
+                                "MaxLodLevel": 1000,
+                                "AnisotropicSamples": "Default",
+                                "Texture": "imageFromFile"
+                            }
+                        ],
+                        "Buffers": [],
+                        "Material": "Material_Img",
+                        "BlendMode": "NotSet",
+                        "DepthMode": "NotSet"
+                    },
+                    "LineWidth": 1.0,
+                    "ClipRect": {
+                        "Min": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "Max": {
+                            "x": 0.0,
+                            "y": 0.0
+                        }
+                    }
+                },
+                {
+                    "Type": "nap::TransformComponent",
+                    "mID": "nap::TransformComponent_430eccc3",
+                    "Properties": {
+                        "Translate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Rotate": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "UniformScale": 1.0
+                    }
+                }
+            ],
+            "Children": []
+        },
+        {
+            "Type": "nap::GnomonMesh",
+            "mID": "Gnomon",
+            "Size": 1.0,
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Type": "nap::ImageFromFile",
+            "mID": "imageFromFile",
+            "Usage": "DynamicRead",
+            "ImagePath": "images/3.PNG",
+            "GenerateLods": true
+        },
+        {
+            "Type": "nap::Material",
+            "mID": "Material_BuffA",
+            "Uniforms": [
+                {
+                    "Type": "nap::UniformStruct",
+                    "mID": "UniformStruct_fad0b761",
+                    "Name": "UBuff",
+                    "Uniforms": [
+                        {
+                            "Type": "nap::UniformInt",
+                            "mID": "UniformInt_fb1f5460",
+                            "Name": "even",
+                            "Value": 0
+                        },
+                        {
+                            "Type": "nap::UniformFloat",
+                            "mID": "UniformFloat_27a38be0",
+                            "Name": "time",
+                            "Value": 0.0
+                        },
+                        {
+                            "Type": "nap::UniformVec2",
+                            "mID": "UniformVec2_5b18e70c",
+                            "Name": "res",
+                            "Value": {
+                                "x": 1920.0,
+                                "y": 1080.0
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Samplers": [
+                {
+                    "Type": "nap::Sampler2D",
+                    "mID": "Sampler2D_5af6c83f",
+                    "Name": "Texfeedback",
+                    "MinFilter": "Linear",
+                    "MaxFilter": "Linear",
+                    "MipMapMode": "Linear",
+                    "AddressModeVertical": "ClampToEdge",
+                    "AddressModeHorizontal": "ClampToEdge",
+                    "MaxLodLevel": 1000,
+                    "AnisotropicSamples": "Default",
+                    "Texture": "RenderTextureB"
+                }
+            ],
+            "Buffers": [],
+            "Shader": "ShaderFromFile_Buff",
+            "VertexAttributeBindings": [],
+            "BlendMode": "Opaque",
+            "DepthMode": "InheritFromBlendMode"
+        },
+        {
+            "Type": "nap::Material",
+            "mID": "Material_BuffB",
+            "Uniforms": [
+                {
+                    "Type": "nap::UniformStruct",
+                    "mID": "UniformStruct_a9a6949f",
+                    "Name": "UBuff",
+                    "Uniforms": [
+                        {
+                            "Type": "nap::UniformInt",
+                            "mID": "UniformInt_9d85b724",
+                            "Name": "even",
+                            "Value": 0
+                        },
+                        {
+                            "Type": "nap::UniformFloat",
+                            "mID": "UniformFloat_1355437c",
+                            "Name": "time",
+                            "Value": 0.0
+                        },
+                        {
+                            "Type": "nap::UniformVec2",
+                            "mID": "UniformVec2_76b87f2d",
+                            "Name": "res",
+                            "Value": {
+                                "x": 1920.0,
+                                "y": 1080.0
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Samplers": [
+                {
+                    "Type": "nap::Sampler2D",
+                    "mID": "Sampler2D_2d06906d",
+                    "Name": "Texfeedback",
+                    "MinFilter": "Linear",
+                    "MaxFilter": "Linear",
+                    "MipMapMode": "Linear",
+                    "AddressModeVertical": "ClampToEdge",
+                    "AddressModeHorizontal": "ClampToEdge",
+                    "MaxLodLevel": 1000,
+                    "AnisotropicSamples": "Default",
+                    "Texture": "RenderTextureA"
+                }
+            ],
+            "Buffers": [],
+            "Shader": "ShaderFromFile_Buff",
+            "VertexAttributeBindings": [],
+            "BlendMode": "Opaque",
+            "DepthMode": "InheritFromBlendMode"
+        },
+        {
+            "Type": "nap::Material",
+            "mID": "Material_Feedback",
+            "Uniforms": [
+                {
+                    "Type": "nap::UniformStruct",
+                    "mID": "UniformStruct_5db9e7ab",
+                    "Name": "UBuff",
+                    "Uniforms": [
+                        {
+                            "Type": "nap::UniformInt",
+                            "mID": "UniformInt_0c44a936",
+                            "Name": "even",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ],
+            "Samplers": [
+                {
+                    "Type": "nap::Sampler2D",
+                    "mID": "Sampler2D_011e14b1",
+                    "Name": "feedbackBuffer",
+                    "MinFilter": "Linear",
+                    "MaxFilter": "Linear",
+                    "MipMapMode": "Linear",
+                    "AddressModeVertical": "ClampToEdge",
+                    "AddressModeHorizontal": "ClampToEdge",
+                    "MaxLodLevel": 1000,
+                    "AnisotropicSamples": "Default",
+                    "Texture": "RenderTextureA"
+                }
+            ],
+            "Buffers": [],
+            "Shader": "ShaderFromFile_Feedback",
+            "VertexAttributeBindings": [],
+            "BlendMode": "Opaque",
+            "DepthMode": "InheritFromBlendMode"
+        },
+        {
+            "Type": "nap::Material",
+            "mID": "Material_Img",
+            "Uniforms": [],
+            "Samplers": [
+                {
+                    "Type": "nap::Sampler2D",
+                    "mID": "Sampler2D_4109f050",
+                    "Name": "TextureImg",
+                    "MinFilter": "Linear",
+                    "MaxFilter": "Linear",
+                    "MipMapMode": "Linear",
+                    "AddressModeVertical": "ClampToEdge",
+                    "AddressModeHorizontal": "ClampToEdge",
+                    "MaxLodLevel": 1000,
+                    "AnisotropicSamples": "Default",
+                    "Texture": "imageFromFile"
+                }
+            ],
+            "Buffers": [],
+            "Shader": "ShaderFromFile_Img",
+            "VertexAttributeBindings": [],
+            "BlendMode": "Opaque",
+            "DepthMode": "InheritFromBlendMode"
+        },
+        {
+            "Type": "nap::PlaneMesh",
+            "mID": "PlaneMesh",
+            "Usage": "Static",
+            "CullMode": "None",
+            "PolygonMode": "Fill",
+            "Size": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "Position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Color": {
+                "Values": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Rows": 1,
+            "Columns": 1
+        },
+        {
+            "Type": "nap::RenderTexture2D",
+            "mID": "RenderTextureA",
+            "Usage": "DynamicWrite",
+            "Width": 1920,
+            "Height": 1080,
+            "Format": "RGBA8",
+            "ColorSpace": "Linear",
+            "ClearColor": {
+                "Values": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "Type": "nap::RenderTexture2D",
+            "mID": "RenderTextureB",
+            "Usage": "DynamicWrite",
+            "Width": 1920,
+            "Height": 1080,
+            "Format": "RGBA8",
+            "ColorSpace": "Linear",
+            "ClearColor": {
+                "Values": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "Type": "nap::RenderWindow",
+            "mID": "Window",
+            "Borderless": false,
+            "Resizable": true,
+            "Visible": true,
+            "SampleShading": true,
+            "Title": "FeedbackShader",
+            "Width": 1280,
+            "Height": 720,
+            "Mode": "Immediate",
+            "ClearColor": {
+                "Values": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            },
+            "Samples": "Four",
+            "AdditionalSwapImages": 1
+        },
+        {
+            "Type": "nap::Scene",
+            "mID": "Scene",
+            "Entities": [
+                {
+                    "Entity": "SourceEntity",
+                    "InstanceProperties": []
+                },
+                {
+                    "Entity": "BuffAEntity",
+                    "InstanceProperties": []
+                },
+                {
+                    "Entity": "BuffBEntity",
+                    "InstanceProperties": []
+                },
+                {
+                    "Entity": "FeedbackEntity",
+                    "InstanceProperties": []
+                },
+                {
+                    "Entity": "CameraEntity",
+                    "InstanceProperties": [
+                        {
+                            "TargetComponent": "./nap::TransformComponent_837b9c21",
+                            "TargetAttributes": [
+                                {
+                                    "Path": "Properties/Translate/z",
+                                    "Value": {
+                                        "Type": "nap::FloatInstancePropertyValue",
+                                        "mID": "instanceProp_float_3a97904f",
+                                        "Value": 0.699999988079071
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "nap::ShaderFromFile",
+            "mID": "ShaderFromFile_Buff",
+            "VertShader": "buffShader.vert",
+            "FragShader": "buffShader.frag"
+        },
+        {
+            "Type": "nap::ShaderFromFile",
+            "mID": "ShaderFromFile_Feedback",
+            "VertShader": "render.vert",
+            "FragShader": "render.frag"
+        },
+        {
+            "Type": "nap::ShaderFromFile",
+            "mID": "ShaderFromFile_Img",
+            "VertShader": "background.vert",
+            "FragShader": "shaders/background.frag"
+        }
+    ]
+}
